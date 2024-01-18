@@ -1,0 +1,85 @@
+.box-container {
+    flex: 1;
+    height: auto;
+    min-width: 400px;
+    max-width: 600px;
+    background-color: rgb(46, 79, 79);
+    margin: 3vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    padding-bottom: 20px;
+    padding-inline: 40px;
+}
+
+.box-container:hover {
+    transform: scale(1.05); /* Increase the scale on hover */
+  }
+
+.box-title {
+    color: rgb(14, 131, 136);
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    text-align: start;
+    flex-direction: column;
+}
+
+.box-date {
+    color: rgb(203, 228, 222);
+    display: flex;
+    margin: 0;
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.box-content {
+    color: rgb(203, 228, 222);
+    display: flex;
+    text-align: start;
+}
+
+.box-content p {
+    margin-top: 0;
+}
+
+.box-image {
+    height: 100px;
+    min-width: 100px;
+    border-radius: 20px;
+    margin-top: 40px;
+    color: rgb(203, 228, 222);
+    filter: grayscale(100%) brightness(1000);
+}
+
+.box-tags {
+    color: rgb(203, 228, 222);
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+
+.box-tags-chip {
+    margin: 5px;
+    color: rgb(203, 228, 222);
+    border-radius: 20px;
+    border: 1px solid rgb(203, 228, 222);
+    padding: 2px;
+    padding-inline: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box-footer {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-icon {
+    margin-inline: 20px;
+    color: rgb(203, 228, 222);
+}

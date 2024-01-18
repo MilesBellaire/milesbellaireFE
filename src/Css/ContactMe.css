@@ -1,0 +1,69 @@
+.ContactMe {
+    text-align: center;
+    position: relative;
+    height: auto;
+    background-color: rgb(44, 51, 51);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    flex-grow: 1;
+}
+
+.ContactMe-title {
+    color: rgb(14, 131, 136);
+    font-size: 5rem;
+    margin: 0;
+}
+
+.ContactMe-info {
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    padding: 10vh;
+    padding-bottom: 0;
+    min-width: 500px;
+    max-width: 600px;
+    text-align: start;
+    color: rgb(203, 228, 222);
+}
+
+.ContactMe-form {
+    color: rgb(14, 131, 136);
+    padding: 10vh;
+    min-width: 400px;
+}
+
+.Border {
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.ContactMe-form-container {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-content: stretch;
+}
+
+.ContactMe-form-input {
+    background-color: rgb(203, 228, 222);
+    border-radius: 5px;
+    width: 500px;
+    display: flex;
+}
+
+.ContactMe-icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ContactMe-icon-container p {
+    margin-inline: 10px;
+}
+
+.ContactMe-text {
+    margin-bottom: 5vh;
+}

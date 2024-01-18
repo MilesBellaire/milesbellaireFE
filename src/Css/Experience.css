@@ -1,0 +1,32 @@
+.Experience {
+    text-align: center;
+    position: relative;
+    height: auto;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+.Experience h1 {
+    color: rgb(14, 131, 136);
+    font-size: 3rem;
+}
+
+.Experience-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    margin-inline: 10vh;
+    margin-top: 5vh;
+    align-content: stretch;
+    align-items: stretch;
+}
+
+.Experience-title {
+    margin-inline: 10vh;
+    display: flex;
+}
+
+.Border {
+    border: 5px solid rgb(203, 228, 222);
+  }
