@@ -17,6 +17,7 @@ export var ExperienceService = {
     },
     async GetPersonalProjects() {
         const response = await BasicProtocals.GetProtocal('api/personal-project');
+        if(response.error) return response;
 
         const itemsWithImages = response.map(item => {
             const imageFile = 'data:image/png;base64,' + item.image;
