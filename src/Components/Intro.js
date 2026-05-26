@@ -57,18 +57,14 @@ function Intro({Ref, scrollY}) {
               <div className="Intro-content-text">
                 <h2> About Me</h2>
                 <p>
-                  I am an undergraduate student at the University of LSU, Metairie.
-                  I am interested in pursuing a career in web development.
-                  I am a full-stack developer.
-                  I am a full-stack developer.
-                  I am a full-stack developer.
-                  I am a full-stack developer.
-                  I am an undergraduate student at the University of LSU, Metairie.
-                  I am interested in pursuing a career in web development.
-                  I am a full-stack developer.
-                  I am a full-stack developer.
-                  I am a full-stack developer.
-                  I am a full-stack developer.
+                  I am a Data Scientist and Software Engineer driven by the intersection 
+                  of robust architecture and actionable intelligence. With a strong 
+                  foundation in Computer Science and Mathematics, I specialize in building 
+                  scalable, end-to-end solutions—from engineering automated ETL pipelines 
+                  and optimizing large-scale SQL databases to implementing advanced Machine 
+                  Learning models and LLM-driven applications. My approach combines a 
+                  security-first mindset with a passion for automation, transforming 
+                  complex, unstandardized data into streamlined, high-performance systems.
                 </p>
               </div>
             </div>
