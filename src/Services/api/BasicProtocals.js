@@ -3,7 +3,7 @@ export var BasicProtocals = {
 
     async GetProtocal(url) {
         try {
-            const response = await fetch('http://localhost:5084/' + url);
+            const response = await fetch('/' + url);
             if (response.ok) {
                 const data = await response.json();
     
