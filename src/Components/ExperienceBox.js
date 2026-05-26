@@ -5,7 +5,7 @@ export default function ExperienceBox({
   image='https://cdn-icons-png.flaticon.com/512/4192/4192708.png', 
   title, 
   description,
-  tags,
+  tags=[],
   link='',
   currentPosition,
   startDate,
