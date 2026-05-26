@@ -65,6 +65,7 @@ function Intro({Ref, scrollY}) {
                   Learning models and LLM-driven applications. My approach combines a 
                   security-first mindset with a passion for automation, transforming 
                   complex, unstandardized data into streamlined, high-performance systems.
+                  TST
                 </p>
               </div>
             </div>
