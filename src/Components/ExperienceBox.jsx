@@ -5,7 +5,7 @@ export default function ExperienceBox({
   image='https://cdn-icons-png.flaticon.com/512/4192/4192708.png', 
   title, 
   description,
-  tags,
+  tags = [],
   link='',
   currentPosition,
   startDate,
@@ -26,6 +26,10 @@ export default function ExperienceBox({
     return `${month} ${year}`;
   }
 
+  const tagsArray = Array.isArray(tags) ? tags : [];
+  
+  console.log(image);
+
   return (
     <div className="box-container">
       <img src={image} className="box-image" alt="boxImage" />
@@ -45,7 +49,7 @@ export default function ExperienceBox({
       </div>
       <div className='box-footer'>
         <div className="box-tags"> 
-          {tags && tags.map((tag, index) => 
+          {tagsArray.length > 0 && tagsArray.map((tag, index) => 
             <div key={index} className='box-tags-chip'>
               <p style={{margin: 0}}>{tag}</p>
             </div>

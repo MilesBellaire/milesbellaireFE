@@ -22,8 +22,10 @@ export default function WorkExperience({Ref, opacity=1}) {
    useEffect(() => {
       const getItems = async () => {
          const response = await ExperienceService.GetWorkExperience();
-         if(response.error) return;
-         setWorkExperience(defaultExperiences);
+         if(response.error) 
+            setWorkExperience(defaultExperiences);
+         else  
+            setWorkExperience(response);
       }
 
       getItems();

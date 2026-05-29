@@ -1,11 +1,12 @@
 import '../Css/Experience.css';
-import ExperienceBox from '../Components/ExperienceBox';
+import ExperienceBox from './ExperienceBox';
 
 export default function ExperienceComp({
    title, 
    opacity=1,
    items
 }) {
+   // console.log(items);
    return (
       <div className="Experience" style={{opacity: opacity}}>
          <div className="Experience-title">

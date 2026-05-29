@@ -22,7 +22,7 @@ function Intro({Ref, scrollY}) {
           <LinkedIn 
             className='Intro-icon' 
             sx={{color: 'white', fontSize: iconSize}}
-            onClick={() => window.open('https://www.linkedin.com/in/miles-bellaire')}
+            onClick={() => window.open('https://www.linkedin.com/in/milesbellaire')}
           />
           <GitHub 
             className='Intro-icon' 
