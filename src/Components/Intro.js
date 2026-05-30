@@ -45,7 +45,7 @@ function Intro({Ref, scrollY}) {
         {background()}
         <div className="Intro-spacing">
           <div className="Intro-content" style={{opacity: `${1-(scrollY*0.003)}`}}>
-            <div style={{flexDirection: 'column', width: '100%'}}>
+            <div style={{flexDirection: 'column', width: '90%'}}>
               <header className="Intro-title">
                 <h1>
                   Miles Bellaire
@@ -65,7 +65,6 @@ function Intro({Ref, scrollY}) {
                   Learning models and LLM-driven applications. My approach combines a 
                   security-first mindset with a passion for automation, transforming 
                   complex, unstandardized data into streamlined, high-performance systems.
-                  TST
                 </p>
               </div>
             </div>

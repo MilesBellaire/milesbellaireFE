@@ -15,7 +15,7 @@ export default function ExperienceComp({
             {items && items.map((item, index) => (
                <ExperienceBox 
                   key={index} 
-                  title={item.name} 
+                  title={item.position} 
                   description={item.description}
                   tags={item.tags} 
                   link={item.link} 
@@ -23,7 +23,7 @@ export default function ExperienceComp({
                   currentPosition={item.currentPosition}
                   startDate={item.startDate}
                   endDate={item.endDate}
-                  position={item.position}
+                  subTitle={item.name}
                />
             ))}
          </div>

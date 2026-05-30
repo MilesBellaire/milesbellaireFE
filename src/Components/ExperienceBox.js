@@ -10,7 +10,7 @@ export default function ExperienceBox({
   currentPosition,
   startDate,
   endDate,
-  position // Need to add these to the Comp !!!!!!!!!!!!!!!!!!!!!!!!!!
+  subTitle // Need to add these to the Comp !!!!!!!!!!!!!!!!!!!!!!!!!!
 }) {
   function formatDate(inputString) {
     const date = new Date(inputString);
@@ -31,8 +31,8 @@ export default function ExperienceBox({
       <img src={image} className="box-image" alt="boxImage" />
       <div className="box-title">
         <h2 style={{margin: 0}}>{title}</h2>
-        {position && 
-          <h3 style={{margin: 0}}>{position}</h3>
+        {subTitle && 
+          <h3 style={{margin: 0}}>{subTitle}</h3>
         }
       </div>
       {startDate && 

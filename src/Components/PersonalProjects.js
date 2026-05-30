@@ -2,7 +2,7 @@ import ExperienceComp from './ExperienceComp';
 import { ExperienceService } from '../Services/api/ExperienceService';
 import { useEffect, useState } from 'react';
 
-export default function PersonalProjects({Ref}) {
+export default function PersonalProjects({Ref, opacity=1}) {
    const [personalProject, setPersonalProject] = useState([]);
 
    useEffect(() => {
@@ -20,6 +20,7 @@ export default function PersonalProjects({Ref}) {
          <ExperienceComp
             title="Personal Projects"
             type={1}
+            opacity={opacity}
             items={personalProject}
          />
       </div>

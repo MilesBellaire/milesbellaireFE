@@ -60,7 +60,7 @@ function MainPage() {
       <SideDiamonds scrollY={scrollY} componentHeights={componentHeights} scrollTo={scrollTo}/>
       <Intro scrollY={scrollY} Ref={introRef}/>
       <WorkExperience opacity={Math.max(scrollY*0.01-3.5, 0)} Ref={workExperienceRef}/>
-      <PersonalProjects Ref={personalProjectsRef}/>
+      <PersonalProjects opacity={Math.max(scrollY*0.011-3.5, 0)} Ref={personalProjectsRef}/>
       <ContactMe Ref={contactMeRef}/>
     </div>
   );

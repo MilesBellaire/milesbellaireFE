@@ -67,3 +67,17 @@
 .ContactMe-text {
     margin-bottom: 5vh;
 }
+
+.ContactMe-form-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.ContactMe-form-button .MuiButton-root {
+    background-color: rgb(14, 131, 136);
+}
+
+.ContactMe-form-button .MuiButton-root:hover {
+    background-color: rgb(12, 105, 110);
+}
