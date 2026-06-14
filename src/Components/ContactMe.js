@@ -59,9 +59,9 @@ export default function ContactMe({Ref}) {
             <div className='ContactMe-icon-container'>
                <LinkedIn 
                   sx={{color: 'white', fontSize: 60}}
-                  onClick={() => window.open('https://www.linkedin.com/in/miles-bellaire')}
+                  onClick={() => window.open('https://www.linkedin.com/in/milesbellaire')}
                />
-               <p>linkedin.com/in/miles-bellaire</p>
+               <p>linkedin.com/in/milesbellaire</p>
             </div>
             <div className='ContactMe-icon-container'>
                <GitHub 

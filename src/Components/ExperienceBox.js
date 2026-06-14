@@ -27,7 +27,7 @@ export default function ExperienceBox({
   }
 
   return (
-    <div className="box-container">
+    <div className="box-container" onClick={() => link && window.open(link)} >
       <img src={image} className="box-image" alt="boxImage" />
       <div className="box-title">
         <h2 style={{margin: 0}}>{title}</h2>
@@ -53,8 +53,7 @@ export default function ExperienceBox({
         </div>
         {link && 
           <GitHub 
-            className='box-icon' 
-            onClick={() => window.open(link)} 
+            className='box-icon'
             sx={{fontSize: 50}}
           />
         }
